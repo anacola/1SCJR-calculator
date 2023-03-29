@@ -19,7 +19,7 @@ body {
     padding: 50px;
     border-radius: 50px;
 
-    background-color: #Ed145B;
+    background-color: #24135F;
     box-shadow: 0px 4px 10px #0009,
                 0px 10px 40px #0005;
 }
@@ -30,8 +30,9 @@ body {
     border-radius: 50px;
     padding: 15px;
 
-    background-color: #fff;
+    background-color: #EDEDED;
     text-align: right;
+    color: #24135F;
     font-size: 36px;
 }
 
@@ -46,11 +47,14 @@ body {
     height: 65px;
     width: 65px;
 
-    background-color: white;
+    background-color: #EDEDED;
+    color: #24135F;
     border-radius: 50%;
     cursor: pointer;
     font-size: 26px;
     border: 0;
 }
 
-/* @TODO hover */
+button:hover{
+     background-color: #D18D00;
+}
